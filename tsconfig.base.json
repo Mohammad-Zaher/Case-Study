@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@lua-case/ui-kit/ui": ["libs/ui-kit/ui/src/index.ts"],
+      "@lua-case/ui-kit/ui/*": ["libs/ui-kit/ui/src/*"],
+      "@lua-case/ui-kit/util": ["libs/ui-kit/util/src/index.ts"],
+      "@lua-case/ui-kit/util/*": ["libs/ui-kit/util/src/*"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

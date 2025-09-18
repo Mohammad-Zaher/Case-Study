@@ -1,0 +1,9 @@
+{
+  "name": "lua-desk-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/lua-desk-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["lua-desk"],
+  "// targets": "to see all targets run: nx show project lua-desk-e2e --web",
+  "targets": {}
+}

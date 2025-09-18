@@ -1,0 +1,16 @@
+{
+  "name": "lua-desk",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/lua-desk",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "drizzle:push": {
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "apps/lua-desk",
+        "command": "drizzle-kit push --config=drizzle.config.ts"
+      }
+    }
+  }
+}

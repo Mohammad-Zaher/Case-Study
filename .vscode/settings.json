@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "prettier.jsxSingleQuote": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.suggestSelection": "first",
+  "editor.snippetSuggestions": "bottom",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  }
+}
